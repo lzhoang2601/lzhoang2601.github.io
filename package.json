@@ -1,0 +1,40 @@
+{
+  "name": "lzhoang2601.github.io",
+  "version": "1.0.0",
+  "description": "lzhoang2601 Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "lzhoang2601.github.io"
+  },
+  "keywords": [
+    "lzhoang2601",
+    "macos",
+    "hackintosh",
+    "opencore",
+    "ocbuilder",
+    "opencore builder",
+    "hackintosh guide"
+  ],
+  "author": "lzhoang2601",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "@nuxt-themes/docus": "^1.12.0",
+    "@nuxt/devtools": "^0.4.6",
+    "@nuxt/eslint-config": "^0.1.1",
+    "@nuxtjs/plausible": "^0.2.1",
+    "@types/node": "^20.1.5",
+    "eslint": "^8.40.0",
+    "nuxt": "^3.5.0"
+  },
+  "dependencies": {
+    "medium-zoom": "^1.0.8"
+  }
+}
